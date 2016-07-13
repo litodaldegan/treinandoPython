@@ -39,12 +39,8 @@ def array_count9(nums):
     if nums[i] == 9:
       n+=1
     i+=1
-<<<<<<< HEAD
 
-  return n 
-=======
   return n
->>>>>>> master
 
 # D. array_front9
 # verifica se pelo menos um dos quatro primeiros é nove

@@ -39,6 +39,7 @@ def array_count9(nums):
     if nums[i] == 9:
       n+=1
     i+=1
+
   return n
 
 # D. array_front9
@@ -55,7 +56,7 @@ def array_front9(nums):
 # hello_name('Alice') -> 'Hello Alice!'
 # hello_name('X') -> 'Hello X!'
 def hello_name(name):
-  return 
+  return ("Hello %s!" %name)
 
 # F. make_tags
 # make_tags('i', 'Yay'), '<i>Yay</i>'

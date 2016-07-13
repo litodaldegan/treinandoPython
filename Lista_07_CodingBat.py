@@ -32,7 +32,15 @@ def string_splosion(s):
 # C. array_count9
 # conta quantas vezes aparece o 9 numa lista nums
 def array_count9(nums):
-  return 
+  i = 0
+  n = 0
+
+  while i < len(nums):
+    if nums[i] == 9:
+      n+=1
+    i+=1
+
+  return n 
 
 # D. array_front9
 # verifica se pelo menos um dos quatro primeiros é nove
